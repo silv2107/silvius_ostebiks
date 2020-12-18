@@ -1,0 +1,101 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header h1 a{
+    text-decoration: none;
+    color:rgb(58, 106, 9);
+    font-size: 2em;
+}
+
+header svg{
+    height: 70px;
+    width: 70px;
+    fill: gold;
+}
+
+header nav{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 1.4em;
+    font-style: oblique;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: gold 1px solid ;
+}
+
+header nav a:hover{
+    color: rgba(0, 0, 0, 0.429);
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* main */
+.wrapper{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper1 h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 1.5em;
+
+}
+.previous{
+    font-size: 2em;
+    color: rgba(255, 0, 0, 0.521);
+}
+
+.next{
+    font-size: 2em;
+    color: rgba(255, 0, 0, 0.521);
+
+
+}
+.container{
+    height: 25vh;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceContainer{
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weightContainer{
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.strengthContainer{
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
